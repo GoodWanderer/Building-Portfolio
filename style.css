@@ -90,6 +90,7 @@ h6 {
   font-size: inherit; }
 
 .btn {
+  cursor: pointer;
   position: relative; }
   .btn span {
     text-transform: uppercase;
