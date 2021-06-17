@@ -493,7 +493,7 @@ body {
     margin: 20px auto 0; }
 
 .calculation {
-  background: url("../img/calculation/bg.jpg") center/cover no-repeat; }
+  background: url("./img/calculation/bg.jpg") center/cover no-repeat; }
   @media (max-width: 767.98px) {
     .calculation__content {
       padding: 0; } }
