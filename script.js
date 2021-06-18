@@ -32,7 +32,7 @@ if (localStorage.getItem('sec') == null) {
 }
 
 function err() {
-  elem = document.querySelector('.stock-start__timer');
+  elem = document.querySelector('.left-stock-header__timer');
   elem.innerHTML = '<div style="color: #fffc;">Ошибка! Обратить к администрации</div>';
 }
 
