@@ -20,6 +20,18 @@ __webpack_require__.r(__webpack_exports__);
   \*************************/
 /***/ (function() {
 
+function ibg(){
+
+  let ibg = document.querySelectorAll(".ibg");
+  for (var i = 0; i < ibg.length; i++) {
+    if(ibg[i].querySelector('img')){
+      ibg[i].style.background = 'url('+ibg[i].querySelector('img').getAttribute('src')+') center/cover no-repeat';
+      ibg[i].querySelector('img').style.display = 'none';
+    }
+  }
+}
+  
+ibg();
 
 const t = 1727999;
 let k = localStorage.getItem('sec');
